@@ -1,6 +1,6 @@
 import './App.css';
-import ShowContent from './hookUseState/showContent';
-import BeerTime from './hookUseState/beerTime';
+import ShowContent from './components/hookUseState/showContent';
+import BeerTime from './components/hookUseState/beerTime';
 
 function App() {
   return (
