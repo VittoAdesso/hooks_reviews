@@ -1,7 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const JoseMaSing = () => {
     const [singer, setSinger] = useState('');
+
+    // useEffect(() => {
+    //     // return () => {
+    //         <h1>{singer}</h1>
+    //     // };
+    // }, [singer]);
 
     function handleSinger() {
         // e.preventDefault();
@@ -16,7 +22,7 @@ const JoseMaSing = () => {
                 setSinger("Mmmm");
                 break;
             case 'Vittorio':
-                setSinger("Beter try again");
+                setSinger("Beter try again, have to practice 🤣");
                 break;
             case 'JoseMa':
                 setSinger("BoooOoOo");
