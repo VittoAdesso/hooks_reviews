@@ -3,6 +3,8 @@ import ShowContent from './components/hookUseState/showContent';
 import BeerTime from './components/hookUseState/beerTime';
 import FormHeroes from './components/hookUseEffect/formHeroes';
 import JoseMaSing from './components/hookUseEffect/joseMaSing';
+import Swicth from './components/hookUseEffect/swicth';
+import NewSinger from './components/hookUseEffect/newSinger';
 
 function App() {
   return (
@@ -15,6 +17,10 @@ function App() {
       <FormHeroes/>
       <hr/>
       <JoseMaSing/>
+      <hr/>
+      <Swicth/>
+      <hr/>
+      <NewSinger/>
     </div>
   );
 }
