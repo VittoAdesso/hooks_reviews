@@ -1,0 +1,2 @@
+Los hooks son funciones que permiten enganchar nuestros componentes funcionales a características propias de un componente de clase.
+Es decir, proporcionan un estado y un ciclo de vida a estos componentes evitándonos a los desarrolladores el uso de las clases.
