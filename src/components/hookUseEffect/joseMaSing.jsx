@@ -1,16 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 const JoseMaSing = () => {
     const [singer, setSinger] = useState('');
 
-    // useEffect(() => {
-    //     // return () => {
-    //         <h1>{singer}</h1>
-    //     // };
-    // }, [singer]);
-
     function handleSinger() {
-        // e.preventDefault();
         switch (singer) {
             case 'Silvia':
                 setSinger('¡Is born a STAR!');
