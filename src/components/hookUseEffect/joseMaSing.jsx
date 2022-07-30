@@ -29,7 +29,8 @@ const JoseMaSing = () => {
                 setSinger("Try Again");
                 break;
             default:
-                // TODO: check how i manage this end
+                // TODO: check how i manage this end 😏
+                // ** READY INTO file newSinger checkit
                 return('Invalid Input')
         }
     }; 
