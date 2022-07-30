@@ -6,6 +6,7 @@ const ShowContent = ({message}) => {
 
     return (
         <div>
+            <h3>UseState</h3>
             <button onClick={() => setShow(true)}>Show message</button>
             <h2>{show && message}</h2>
             <button onClick={() => setShow(false)}>Hide message</button>

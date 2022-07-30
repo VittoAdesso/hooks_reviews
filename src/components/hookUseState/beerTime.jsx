@@ -14,6 +14,7 @@ const BeerTime = ({message}) => {
     
     return (
         <div>
+        <h3>UseState</h3>
             <button onClick={handleDecrement}> - </button>
             <button onClick={()=> setCounter(5)}>Reset</button>
             {/* into the solution bellow, i cannot control the counter */}

@@ -36,6 +36,7 @@ const JoseMaSing = () => {
 
     return (
         <div>
+         <h3>UseEffect</h3>
             <input type="text" onChange={(inputText) => setSinger(inputText.target.value)}/>
             <button onClick={handleSinger}> Is a Singer ?  </button>
             <h3>{singer}</h3>

@@ -18,6 +18,7 @@ const FormHeroes = () => {
 
     return (
         <div>
+            <h3>UseEffect</h3>
             <input onChange={(event) => setName(event.target.value)}/>{name}
             <br></br>
             <input onChange={(e) => setHeroeName(e.target.value)}/>{heroeName}
