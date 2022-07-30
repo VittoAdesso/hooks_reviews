@@ -1,7 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const JoseMaSing = () => {
     const [singer, setSinger] = useState('');
+
+    useEffect(() => {
+        // with it, you ca see, how act the useEffect
+        console.log(singer);
+    }, [singer]);
 
     function handleSinger() {
         switch (singer) {

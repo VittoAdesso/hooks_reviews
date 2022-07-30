@@ -1,0 +1,7 @@
+Este hook se ejecuta siempre después del primer renderizado y después de cada actualización y, por lo tanto, se utiliza para ejecutar funciones después de hacer render. useEffect recibe una función que puede realizar todo tipo de operación incluyendo efectos secundarios. Un ejemplo típico de una operación que podemos querer realizar es una llamada a un servicio.
+
+¿si useEffect se ejecuta en cada renderizado cómo afecta esto al funcionamiento? ¿Cómo se puede evitar que entre en bucle?
+
+Pasándole a la función un array como segundo parámetro. El valor de este array será el que React comparará para saber si tiene que volver a ejecutar el hook. En caso de no variar este valor, el hook no se ejecutará → En nuestro caso el segundo parametro es name y heroeName: 
+
+El hook useEffect simplemente realiza un console.log() en cada ocasión en que se ejecuta. Si no le pasásemos el segundo parámetro [name], veríamos el resultado de console.log() cada vez que el usuario introduce un valor en cualquiera de los dos inputs. En cambio, al pasarle la variable name como dependencia, el hook se ejecuta solamente cuando el usuario introduce un valor en el input correspondiente a name.
