@@ -1,0 +1,1 @@
+El hook **useState** es el que nos **permite** **agregarle un estado local** a un componente  y **cambiar ese estado**. Como **primer parámetro** tendremos el **valor inicial del State** y como **segundo** el **método que modifica ese State**.
