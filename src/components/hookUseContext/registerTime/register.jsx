@@ -1,1 +1,3 @@
 // todo:Es hora de empezar a hacer cositas más complejas con React, vamos a hacer un componente Register que cuando se rellene la info el usuario lo consuman todos los componentes que están dentro de este. Para ello: - Creamos componente Register, User y  Message.  - Creamos un RegisterContext → iniciado vacío.- Cuando clickamos en submit de Register → User pintará la información solicitada (mínimo nombre y email). Y Message pintará el siguiente mensaje "Lo has logrado {user.name} eres un crack de React y de la vida 👊"
+
+// **https://www.minicodelab.dev/feed/react-0-usecontext
