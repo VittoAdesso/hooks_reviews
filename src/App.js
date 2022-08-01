@@ -6,6 +6,7 @@ import JoseMaSing from './components/hookUseEffect/joseMaSing';
 import Swicth from './components/hookUseEffect/swicth';
 import NewSinger from './components/hookUseEffect/newSinger';
 import ShowUser from './components/hookUseContext/useContext_1/showUser';
+import SnowName from './components/snowStyle/snowName';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
       <NewSinger/> 
       <hr/>
       <ShowUser/>
+      <hr/>
+      <SnowName/>
     </div>
   );
 }
