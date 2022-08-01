@@ -5,6 +5,7 @@ import FormHeroes from './components/hookUseEffect/formHeroes';
 import JoseMaSing from './components/hookUseEffect/joseMaSing';
 import Swicth from './components/hookUseEffect/swicth';
 import NewSinger from './components/hookUseEffect/newSinger';
+import ShowUser from './components/hookUseContext/useContext_1/showUser';
 
 function App() {
   return (
@@ -20,7 +21,9 @@ function App() {
       <hr/>
       <Swicth/>
       <hr/>
-      <NewSinger/>
+      <NewSinger/> 
+      <hr/>
+      <ShowUser/>
     </div>
   );
 }
