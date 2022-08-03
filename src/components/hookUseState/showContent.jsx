@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import NavBar from '../navBar/navBar';
 
 const ShowContent = ({message}) => {
 
@@ -6,6 +7,7 @@ const ShowContent = ({message}) => {
 
     return (
         <div>
+            <NavBar/>
             <h3>UseState</h3>
             <button onClick={() => setShow(true)}>Show message</button>
             <h2>{show && message}</h2>

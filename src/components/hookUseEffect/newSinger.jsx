@@ -1,4 +1,5 @@
 import React, { useState} from 'react';
+import NavBar from '../navBar/navBar';
 // import React from 'react';
 
 const NewSinger = () => {
@@ -23,6 +24,7 @@ const NewSinger = () => {
     };
     return (
     <div> 
+    <NavBar/>
         <h2>Write a NamE 👨‍💻</h2>
         <input type="text" onChange={(inputText) => setSinger(inputText.target.value)}/>
             <h1 style={{color: "red"}}><HandleSinger value= {singer} /></h1> 

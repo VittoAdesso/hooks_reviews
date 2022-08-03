@@ -1,4 +1,5 @@
 import React from 'react'
+import NavBar from '../navBar/navBar';
 
 const Swicth = () => {
 
@@ -24,6 +25,7 @@ const Swicth = () => {
     }
     return (
     <div className="container"> 
+    <NavBar/>
     <h3>Using switch statement</h3>
         <WeekDays value={2} />
     </div>

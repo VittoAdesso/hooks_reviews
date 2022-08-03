@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import NavBar from '../navBar/navBar';
 
 const JoseMaSing = () => {
     const [singer, setSinger] = useState('');
@@ -37,6 +38,7 @@ const JoseMaSing = () => {
 
     return (
         <div>
+        <NavBar/>
          <h3>UseEffect</h3>
             <input type="text" onChange={(inputText) => setSinger(inputText.target.value)}/>
             <button onClick={handleSinger}> Is a Singer ?  </button>

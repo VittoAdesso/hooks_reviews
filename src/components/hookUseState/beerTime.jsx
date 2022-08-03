@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import NavBar from '../navBar/navBar';
 
 const BeerTime = ({message}) => {
     const [counter, setCounter] = useState(5);
@@ -14,6 +15,7 @@ const BeerTime = ({message}) => {
     
     return (
         <div>
+        <NavBar/>
         <h3>UseState</h3>
             <button onClick={handleDecrement}> - </button>
             <button onClick={()=> setCounter(5)}>Reset</button>

@@ -2,6 +2,7 @@
 import React from 'react';
 import UserContext from './userContext';
 import Button from './button';
+import NavBar from '../../navBar/navBar';
 
 const userMock = {
     name: 'Hulk',
@@ -11,6 +12,7 @@ const userMock = {
 const ShowUser = () => {
     return (
         <UserContext.Provider value={userMock}>
+        <NavBar/>
             <Button />
         </UserContext.Provider>
     );

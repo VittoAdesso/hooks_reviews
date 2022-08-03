@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import NavBar from '../navBar/navBar';
 
 const FormHeroes = () => {
     const [name, setName] = useState('');
@@ -18,6 +19,7 @@ const FormHeroes = () => {
 
     return (
         <div>
+        <NavBar/>
             <h3>UseEffect</h3>
             <input onChange={(event) => setName(event.target.value)}/>{name}
             <br></br>
